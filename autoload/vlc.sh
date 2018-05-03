@@ -9,3 +9,7 @@ vlc(){
 vlcfull(){
 	$base/vlc/vlcfull.sh $@
 }
+
+killvlc(){
+	kill -9 $(ps -x | grep "VLC" | awk "{print $1}")
+}
