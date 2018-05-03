@@ -1,1 +1,1 @@
-My commands in mac os which help me to kind of automate some everyday routines.
+My commands and scripts which help me to kind of automate some everyday routines.
