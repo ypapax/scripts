@@ -13,3 +13,7 @@ vlcfull(){
 killvlc(){
 	kill -9 $(ps -x | grep "VLC" | awk "{print $1}")
 }
+
+kvlc(){
+	killvlc $@
+}

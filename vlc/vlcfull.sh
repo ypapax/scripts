@@ -12,4 +12,4 @@ if [ -f "$path" ]; then
 	dir="$(dirname "$path")"
 fi
 ls "$dir"
-/Applications/VLC.app/Contents/MacOS/VLC --fullscreen "$dir"
+/Applications/VLC.app/Contents/MacOS/VLC --no-loop --fullscreen "$dir"
